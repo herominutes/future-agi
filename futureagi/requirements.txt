@@ -6,7 +6,7 @@ aiofiles==25.1.0
     # via livekit
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.13
+aiohttp==3.14.4
     # via
     #   fsspec
     #   langchain-community
@@ -26,7 +26,7 @@ anthropic==0.55.0
     # via
     #   core-backend (pyproject.toml)
     #   traceai-anthropic
-anyio==4.9.0
+anyio==4.14.2
     # via
     #   anthropic
     #   google-genai
@@ -160,7 +160,7 @@ confection==0.1.5
     #   weasel
 cron-descriptor==1.4.5
     # via django-celery-beat
-cryptography==43.0.3
+cryptography==50.0.2
     # via
     #   authlib
     #   pdfminer-six
@@ -183,7 +183,7 @@ dacite==1.9.2
     # via traceai-bedrock
 dataclasses-json==0.6.7
     # via langchain-community
-datasets==3.6.0
+datasets==5.1.0
     # via core-backend (pyproject.toml)
 decorator==5.2.1
     # via librosa
@@ -201,7 +201,7 @@ distro==1.9.0
     #   openai
     #   posthog
     #   retell-sdk
-django==5.1.8
+django==5.2.18
     # via
     #   core-backend (pyproject.toml)
     #   channels
@@ -400,7 +400,7 @@ hdbscan==0.8.40
     # via core-backend (pyproject.toml)
 hf-xet==1.1.5
     # via huggingface-hub
-hpack==4.1.0
+hpack==4.2.0
     # via h2
 httpcore==1.0.9
     # via httpx
@@ -522,7 +522,7 @@ librosa==0.11.0
     # via core-backend (pyproject.toml)
 lightning-utilities==0.15.2
     # via torchmetrics
-litellm==1.81.11
+litellm==1.88.6
     # via
     #   core-backend (pyproject.toml)
     #   traceai-litellm
@@ -550,7 +550,7 @@ markupsafe==3.0.2
     #   mako
 marshmallow==3.26.1
     # via dataclasses-json
-mcp==1.26.0
+mcp==1.30.0
     # via core-backend (pyproject.toml)
 mdurl==0.1.2
     # via markdown-it-py
@@ -584,7 +584,7 @@ networkx==3.6.1
     # via torch
 nexus-rpc==1.2.0
     # via temporalio
-nltk==3.8.1
+nltk==3.10.4
     # via
     #   core-backend (pyproject.toml)
     #   rouge-score
@@ -656,7 +656,7 @@ nvidia-nvshmem-cu12==3.4.5
     # via torch
 nvidia-nvtx-cu12==12.8.90
     # via torch
-oauthlib==3.3.1
+oauthlib==4.0.0
     # via
     #   kubernetes
     #   requests-oauthlib
@@ -998,7 +998,7 @@ pydub==0.25.1
     # via core-backend (pyproject.toml)
 pygments==2.19.2
     # via rich
-pyjwt==2.12.1
+pyjwt==2.15.0
     # via
     #   core-backend (pyproject.toml)
     #   djangorestframework-simplejwt
@@ -1010,7 +1010,7 @@ pyopenssl==24.2.1
     #   webauthn
 pyotp==2.9.0
     # via core-backend (pyproject.toml)
-pypdf==5.6.1
+pypdf==6.21.1
     # via core-backend (pyproject.toml)
 pypdfium2==5.6.0
     # via pdfplumber
@@ -1193,7 +1193,7 @@ soundfile==0.13.1
     # via
     #   core-backend (pyproject.toml)
     #   librosa
-soupsieve==2.8.3
+soupsieve==2.9
     # via beautifulsoup4
 soxr==0.5.0.post1
     # via librosa
@@ -1274,7 +1274,7 @@ torchvision==0.25.0
     # via
     #   core-backend (pyproject.toml)
     #   torch-fidelity
-tornado==6.5.1
+tornado==6.5.9
     # via flower
 tqdm==4.67.1
     # via
@@ -1300,7 +1300,7 @@ traceai-openai==0.1.9
     # via core-backend (pyproject.toml)
 traceai-vertexai==0.1.9
     # via core-backend (pyproject.toml)
-transformers==4.53.0
+transformers==5.20.2
     # via core-backend (pyproject.toml)
 triton==3.6.0
     # via torch
@@ -1381,7 +1381,7 @@ tzlocal==5.3.1
     # via clickhouse-driver
 uritemplate==4.2.0
     # via drf-yasg
-urllib3==2.0.7
+urllib3==2.8.0
     # via
     #   botocore
     #   django-anymail
